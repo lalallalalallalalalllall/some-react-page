@@ -16,4 +16,4 @@ class ListingItem extends Component {
       }
     }
     
-    export default ListingItem;
+export default ListingItem;

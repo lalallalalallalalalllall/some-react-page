@@ -1,13 +1,6 @@
 import React, { Component } from 'react';
 import ListingItem from './ListingItem';
 class Listing extends Component {
-  
-  //listing of all user 
-  // constructor(){
-  //   super()
-  // }
-
-
 
   render() {
     // let items;

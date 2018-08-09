@@ -8,7 +8,7 @@ class App extends Component {
     this.state = {
       title: "user-listing",
       items : [
-        {
+        { 
           userId: 'food123',
           username: "milketea",
           age : 10 ,
@@ -22,6 +22,8 @@ class App extends Component {
         }
       ]
     }
+
+
   }
 
   render() {
