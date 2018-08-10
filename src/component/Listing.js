@@ -4,17 +4,15 @@ class Listing extends Component {
 
   render() {
     // let items;
-    var title = this.props.title
     if(this.props.items){
       var items = this.props.items.map(item =>{
         return (
-            <ListingItem key={item.userId} item = {item} />
+            <ListingItem key={item.itemId} item = {item} />
         )
       })
     }
     return (
       <div className="listing">
-        <h3>{title}</h3 >
         {items}
       </div>
     );
